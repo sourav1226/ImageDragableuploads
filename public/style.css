@@ -1,0 +1,25 @@
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 10px;
+
+}
+.d-grid{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+.d-grid img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+} 
+.d-grid span{
+    top: -100%;
+    left: 4%;
+    font-size: 30px;
+    color: red;
+    position: relative;
+    cursor: pointer;
+    
+} 
